@@ -1,0 +1,25 @@
+.image-responsive{
+   max-width: 100%;
+}
+
+.hp {
+   background: url(image2.jpg) no-repeat;
+   -webkit-background-size: cover;
+   background-size: cover;
+   height: 15vh;
+}
+
+body {
+   background: url(image1.jpg) no-repeat;
+   -webkit-background-size:  cover;
+   background: auto;
+   height: 100%;
+   margin-top: 80%;
+}
+
+.na {
+   padding: 40px;
+   top: 40px;
+   left: 50px;
+   text-align: center;
+}

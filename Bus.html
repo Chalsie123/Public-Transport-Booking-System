@@ -1,0 +1,59 @@
+<!Doctype html>
+	<html lang = "en">
+	<head>
+		<title>Online Bus Ticket Booking</title>
+		<link href="Bus.css" type="text/css" rel="Stylesheet">
+		<link href="Normalize.css" type="text/css" rel="Stylesheet">
+		<link href='Bus.jpg' type='image/x-icon' rel='shortcut icon'> 
+	</head>
+	<body>
+		<section class="hp">
+			<div class="Homepage">
+				<span>HomePage</span>
+				<nav class='na'>
+					<a class="train" href="Train.html">Train</a>
+					<a>Bus</a>
+					<a class="plane" href="Plane.html">Plane</a>
+					<a class="signin" href="Signin.html">Login</a>
+					<a class="register" href="Signup.html">Register</a>
+					<a href="contact bus.html"  
+					onclick="window.open('contact bus.html', 
+                         'newwindow', 
+                         'width=500,height=500'); 
+              return false;"
+              >Contact Us</a>
+				</nav>
+			</div>
+		</section>
+		<section class="det">
+			<h1>Book Ticket</h1>
+			<div class="details">
+				<form>
+					<span>From</span>
+					<select name="From" id="from" placeholder="From">
+						<option disabled selected="" >No Station Source</option>
+						<option>Delhi</option>
+						<option>Howrah</option>
+						<option>Harayana</option>
+						<option>Agra</option>
+					</select>
+					<span>To</span>
+					<select name="to" id="to">
+						<option disabled selected="">No Station Destination</option>
+						<option>Delhi</option>
+						<option>Howrah</option>
+						<option>Harayana</option>
+						<option>Agra</option>				
+					</select>
+					<span>Departure Date</span>
+					<input type="Date" name="Date"></input>
+					<select name="quota" id ="quota">
+						<option disabled selected="">No Selected Category</option>
+						<option>AC</option>
+						<option>Non-AC</option>
+					</select>
+					<button type='submit'>Search</button>
+				</form>
+		</section>
+	</body>
+</html>

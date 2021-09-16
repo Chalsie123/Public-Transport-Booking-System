@@ -1,0 +1,73 @@
+<!Doctype html>
+	<html lang = "en">
+	<head>
+		<title>Online Plane Ticket Booking</title>
+		<link href="Plane.css" type="text/css" rel="Stylesheet">
+		<link href="Normalize.css" type="text/css" rel="Stylesheet">
+		<link href='Plane.png' type='image/x-icon' rel='shortcut icon'>
+	</head>
+	<body>
+		<section class="hp">
+			<div class="Homepage">
+				<span>HomePage</span>
+				<nav class='na'>
+					<a class="train" href="Train.html">Train</a>
+					<a class="bus" href="Bus.html">Bus</a>
+					<a>Plane</a>
+					<a class="signin" href="Signin.html">Login</a>
+					<a class="register" href="Signup.html">Register</a>
+					<a href="contact plane.html"  
+					onclick="window.open('contact plane.html', 
+                         'newwindow', 
+                         'width=500,height=500'); 
+              return false;"
+              >Contact Us</a>
+				</nav>
+			</div>
+		</section>
+		<section class="det">
+			<h1>Book Ticket</h1>
+			<div class="details">
+				<form>
+					<span>From</span>
+					<select name="From" id="from" placeholder="From">
+						<option disabled selected="" >No Selected</option>
+						<option>Delhi</option>
+						<option>Howrah</option>
+						<option>Harayana</option>
+						<option>Agra</option>
+					</select>
+					<span>To</span>
+					<select name="to" id="to">
+						<option disabled selected="">No Selected</option>
+						<option>Delhi</option>
+						<option>Howrah</option>
+						<option>Harayana</option>
+						<option>Agra</option>				
+					</select>
+					<span>DD/MM/YYYY</span>
+					<input type="Date" name="Ddate"></input>
+					<span>Return date</span>
+					<input type="Date" name="Rdate"</input>
+					<select name="cl" id="cl">
+						<option disabled selected="">All Classes</option>
+						<option>Economy</option>
+						<option>Business</option>
+						<option>Premium Economy</option>
+					</select>
+					<snap>Preferred Airline</snap>
+					<select name="quota" id ="quota">
+						<option disabled selected="">All Airlines</option>
+						<option>Air India</option>
+						<option>Air Asia</option>
+						<option>Go</option>
+						<option>Indigo</option>
+						<option>Jet Airways</option>
+						<option>Spice Jet</option>
+						<option>Vistara Airline</option>
+					</select>
+					<button type='submit'>Search</button>
+				</form>
+		</section>
+	</body>
+</html>

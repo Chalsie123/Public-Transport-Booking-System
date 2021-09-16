@@ -1,0 +1,47 @@
+body {
+   font-family: 'Georama', sans-serif;
+   color: Black;
+}
+
+.image-responsive{
+   max-width: 100%;
+}
+
+.in {
+   background: url(Image1.jpg) no-repeat;
+   -webkit-background-size: cover;
+   background-size: cover;
+   height: 100vh;
+   position: relative;
+}
+
+.Signin {
+   display: inline-block;
+   position: absolute;
+   top: 15%;
+   left: 35%;
+   width: 20%;
+   padding: 80px;
+}
+
+.input {
+   padding: 8px;
+   width: 90%;
+   top: 10%;
+   left: 10%;
+   margin: 5px 0 20px 0;
+}
+
+
+button { 
+  width: auto;
+  height: auto;
+}
+
+.signup {
+  display: inline-block;
+  color: Black;
+  height: 50px;
+  width: 300px;
+  padding: 30px;
+}

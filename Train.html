@@ -1,0 +1,67 @@
+<!Doctype html>
+	<html lang = "en">
+	<head>
+		<title>Online Train Booking</title>
+		<link href="Train.css" type="text/css" rel="Stylesheet">
+		<link href="Normalize.css" type="text/css" rel="Stylesheet">
+		<link href='train.jpg' type='image/x-icon' rel='shortcut icon'>
+	</head>
+	<body>
+		<section class="hp">
+			<div class="Homepage">
+				<span>HomePage</span>
+				<nav class='na'>
+					<a>Trains</a>
+					<a class="bus" href="Bus.html">Bus</a>
+					<a class="plane" href="Plane.html">Plane</a>
+					<a class="signin" href="Signin.html">Login</a>
+					<a class="register" href="Signup.html">Register</a>
+					<a href="contact train.html"  
+					onclick="window.open('contact train.html', 
+                         'newwindow', 
+                         'width=500,height=500'); 
+              return false;"
+              >Contact Us</a>
+				</nav>
+			</div>
+		</section>
+		<section class="det">
+			<h1>Book Ticket</h1>
+			<div class="details">
+				<form>
+					<span>From</span>
+					<select name="From" id="from" placeholder="From">
+						<option disabled selected="" >No Station Selected</option>
+						<option>Delhi</option>
+						<option>Howrah</option>
+						<option>Harayana</option>
+						<option>Agra</option>
+					</select>
+					<span>To</span>
+					<select name="to" id="to">
+						<option disabled selected="">No Station Selected</option>
+						<option>Delhi</option>
+						<option>Howrah</option>
+						<option>Harayana</option>
+						<option>Agra</option>				
+					</select>
+					<span>DD/MM/YYYY</span>
+					<input type="Date" name="Date"></input>
+					<select name="cl" id="cl">
+						<option disabled selected="">All Classes</option>
+						<option>AC 2 Tier (2A)</option>
+						<option>AC 3 Tier (3A)</option>
+						<option>Sleeper (SL)</option>
+						<option>Second Sitting (2S)</option>
+					</select>
+					<select name="quota" id ="quota">
+						<option>General</option>
+						<option>Ladies</option>
+						<option>Senior Citizens</option>
+						<option>Divyaang</option>
+					</select>
+					<button type='submit'>Search</button>
+				</form>
+		</section>
+	</body>
+</html>
